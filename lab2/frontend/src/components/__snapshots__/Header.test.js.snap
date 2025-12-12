@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Header Component Tests Header matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar navbar-expand-lg navbar-dark bg-success"
+  >
+    <div
+      class="container"
+    >
+      <a
+        class="navbar-brand"
+        href="#home"
+      >
+        Екологічний моніторинг
+      </a>
+      <button
+        aria-controls="basic-navbar-nav"
+        aria-label="Toggle navigation"
+        class="navbar-toggler collapsed"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        class="navbar-collapse collapse"
+        id="basic-navbar-nav"
+      >
+        <div
+          class="me-auto navbar-nav"
+        >
+          <a
+            class="nav-link"
+            data-rr-ui-event-key="#stations"
+            href="#stations"
+          >
+            Станції
+          </a>
+          <a
+            class="nav-link"
+            data-rr-ui-event-key="#measurements"
+            href="#measurements"
+          >
+            Вимірювання
+          </a>
+        </div>
+        <div
+          class="navbar-nav"
+        >
+          <div
+            class="d-flex align-items-center"
+          >
+            <span
+              class="me-3 badge bg-danger"
+            >
+              Сервер: checking
+            </span>
+            <button
+              class="btn btn-outline-light btn-sm"
+              type="button"
+            >
+              Синхронізувати
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
