@@ -1,0 +1,4 @@
+/* Additional form-specific styles */
+.form-group h3 {
+  grid-column: 1 / -1;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "air-quality-index",
+  "version": "1.0.0",
+  "description": "Air Quality Index calculation system with backend and frontend",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "seed:airindex": "node backend/seeds/airIndexSeed.js",
+    "client": "cd frontend && npm start",
+    "client:install": "cd frontend && npm install",
+    "client:build": "cd frontend && npm run build"
+  },
+  "keywords": ["air-quality", "environment", "ecology", "monitoring"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "joi": "^17.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
